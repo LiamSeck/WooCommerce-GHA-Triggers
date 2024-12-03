@@ -1,8 +1,8 @@
-name: Run-Hourly
+name: Run-Minute
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '* * * * *'
 
 jobs:
   run-script:
