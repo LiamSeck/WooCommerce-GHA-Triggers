@@ -3,7 +3,7 @@ name: Run-Minute
 on:
   workflow_dispatch:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/1 * * * *'
 
 jobs:
   run-script:
@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Run Script
       env:
-        WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
+        WPE_SSHG_KEY_PRIVATE: ${{secrets.WPE_SSHG_KEY_PRIVATE}}
       run: |
         chmod +x script.sh
         ./script.sh
