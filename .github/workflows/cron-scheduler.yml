@@ -11,7 +11,13 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+      env:
+        WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
     - name: Run Script
       run: |
         chmod +x script.sh
         ./script.sh
+      
+
+
+        
