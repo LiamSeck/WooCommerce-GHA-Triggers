@@ -13,6 +13,7 @@ cd ~/sites/liamseprod/
 
 echo `date` >> action-scheduler-run.log 2>> action-scheduler-run-error.log
 echo "GitHub Action Run ID: $GHA_RUN_NO" >> action-scheduler-run.log 2>> action-scheduler-run-error.log
+
 echo `date` >> cron-run.log 2>> cron-run-error.log
 echo "GitHub Run ID: $GHA_RUN_NO" >> cron-run.log 2>> cron-run-error.log
 
