@@ -4,6 +4,10 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
+env:
+        WPE_SSHG_KEY_PRIVATE: ${{secrets.WPE_SSHG_KEY_PRIVATE}}
+        GH_RUN_NO: ${{github.run_number}}
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
@@ -11,9 +15,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - name: Run Script
-      env:
-        WPE_SSHG_KEY_PRIVATE: ${{secrets.WPE_SSHG_KEY_PRIVATE}}
-        GH_RUN_NO: ${{github.run_number}}
       run: |
         chmod +x script.sh
         ./script.sh
