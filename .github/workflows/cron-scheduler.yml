@@ -13,6 +13,7 @@ jobs:
     - name: Run Script
       env:
         WPE_SSHG_KEY_PRIVATE: ${{secrets.WPE_SSHG_KEY_PRIVATE}}
+        GH_RUN_NO: ${{github.run_number}}
       run: |
         chmod +x script.sh
         ./script.sh
