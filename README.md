@@ -1,2 +1,2 @@
 # WooCommerce-GHA-Triggers
-Testing GHA Crons to Trigger WooCommerce Actions
+Testing GitHub Actions to Trigger WooCommerce Action Scheduler and Crons via WP-CLI. 
