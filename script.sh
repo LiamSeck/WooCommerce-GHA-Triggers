@@ -3,8 +3,8 @@ mkdir -p ~/.ssh
 echo "$WPE_SSHG_KEY_PRIVATE" > ~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa
 
-ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa liamseprod@liamseprod.ssh.wpengine.net <<EOF
-cd ~/sites/liamseprod/
+ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${WPE_ENV}@${WPE_ENV}.ssh.wpengine.net <<EOF
+cd ~/sites/${WPE_ENV}/
 
 
 echo `date` >> action-scheduler-run.log 2>> action-scheduler-run-error.log
