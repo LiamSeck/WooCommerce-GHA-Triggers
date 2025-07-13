@@ -1,3 +1,9 @@
+# Workflow Status
+
+[![Run-5-Minutes](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/cron-scheduler.yml/badge.svg)](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/cron-scheduler.yml)
+
+---
+
 # WooCommerce-GHA-Triggers
 Testing GitHub Actions to trigger the WooCommerce [Action Scheduler](https://actionscheduler.org/wp-cli/) and scheduled [WordPress Cron](https://developer.wordpress.org/cli/commands/cron/event/run/) events via [WP-CLI](https://wp-cli.org/) utilising the WP Engine [SSH Gateway](https://wpengine.com/support/ssh-gateway/).
 
