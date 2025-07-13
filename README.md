@@ -1,10 +1,6 @@
 # Workflow Status
 
-[![Run-5-Minutes](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/cron-scheduler.yml/badge.svg)](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/cron-scheduler.yml)
-
-[![CodeQL Advanced](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/codeql.yml/badge.svg)](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/codeql.yml)
-
-[![Lint GHA Files](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/lint-check.yml/badge.svg)](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/lint-check.yml)
+[![Run-5-Minutes](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/cron-scheduler.yml/badge.svg)](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/cron-scheduler.yml) [![CodeQL Advanced](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/codeql.yml/badge.svg)](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/codeql.yml) [![Lint GHA Files](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/lint-check.yml/badge.svg)](https://github.com/LiamSeck/WooCommerce-GHA-Triggers/actions/workflows/lint-check.yml)
 
 ---
 
