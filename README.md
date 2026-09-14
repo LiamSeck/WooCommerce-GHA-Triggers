@@ -7,7 +7,7 @@
 # WooCommerce-GHA-Triggers
 Testing GitHub Actions to trigger the WooCommerce [Action Scheduler](https://actionscheduler.org/wp-cli/) and scheduled [WordPress Cron](https://developer.wordpress.org/cli/commands/cron/event/run/) events via [WP-CLI](https://wp-cli.org/) utilising the WP Engine [SSH Gateway](https://wpengine.com/support/ssh-gateway/).
 
-The [action-scheduler-disable-default-runner plugin](https://github.com/woocommerce/action-scheduler-disable-default-runner) should be installed and enabled when running Action Scheduler via WP CLI. This disable Action Scheduler's default queue runner, by removing it from the 'action_scheduler_run_queue' hook.
+The [action-scheduler-disable-default-runner plugin](https://github.com/woocommerce/action-scheduler-disable-default-runner) should be installed and enabled when running Action Scheduler via WP CLI. This disables the Action Scheduler's default queue runner, by removing it from the 'action_scheduler_run_queue' hook.
 
 ---
 # WordPress Cron Automation with GitHub Actions and WP Engine
