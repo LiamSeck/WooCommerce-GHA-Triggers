@@ -1,7 +1,7 @@
-name: Run-5-Minutes
+name: Run-Hourly-Backup
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 */4 * * *"
   workflow_dispatch:
 
 env:
@@ -18,5 +18,5 @@ jobs:
       uses: actions/checkout@v4
     - name: Run Script
       run: |
-        chmod +x script.sh
-        ./script.sh
+        chmod +x backup.sh
+        ./backup.sh
