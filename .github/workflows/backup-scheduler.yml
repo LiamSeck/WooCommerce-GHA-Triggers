@@ -7,6 +7,7 @@ on:
 env:
         WPE_API_USER_ID: ${{secrets.WPE_API_USER_ID}}
         WPE_API_PASSWORD: ${{secrets.WPE_API_PASSWORD}}
+        GHA_RUN_NO: ${{github.run_number}}
         WPE_ENV: liamseprod
 jobs:
   run-script:
