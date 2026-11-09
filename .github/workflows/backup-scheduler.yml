@@ -2,6 +2,7 @@ name: Run-Hourly-Backup
 on:
   schedule:
     - cron: "0 * * * *"
+      timezone: "Europe/London"
   workflow_dispatch:
 
 env:
