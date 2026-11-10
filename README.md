@@ -22,7 +22,7 @@ This implementation allows you to run WordPress cron jobs reliably using GitHub 
 | Workflow | Schedule | Description |
 |----------|----------|-------------|
 | `cron-scheduler.yml` | Every 5 minutes | SSH into WP Engine and run `wp action-scheduler run` + `wp cron event run --due-now` |
-| `backup-scheduler.yml` | Every 4 hours | Trigger a site backup via the WP Engine API |
+| `backup-scheduler.yml` | Every 1 hour | Trigger a site backup via the WP Engine API |
 | `lint-check.yml` | Push / PR to main | Shellcheck + yamllint validation |
 | `codeql.yml` | Push / PR to main + weekly | Security scanning |
 
